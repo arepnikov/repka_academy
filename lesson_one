@@ -1,0 +1,43 @@
+Deklaracja zmiennej (variable)
+  int i;
+
+Deklaracje i inicjalizacja zmiennej
+  int i = 3;
+
+Przypisanie wartosci do zadeklarowanej zmiennej
+  i = 55;
+
+Przyklad programu:
+==========================================
+#include <stdio.h>
+
+int main() {
+  int i;
+  i = 55;
+
+  printf("%d\n", i);
+
+  return 0;
+}
+==========================================
+Szczegoly:
+==========================================
+#include <stdio.h>    // dodajemy do naszego programu bibliotek stdio.h
+                      // w tej bibliotce jest metoda 'printf' z ktorej korzystamy w programie
+
+int main() {          // int main() - specjalna funkcja, jest to poczatek programu, stad 
+                      // komputer zacznie wykonywac nasz program
+  
+  int i;              // deklaracja zmiennej int, prosimy komputer zarezerwowac dla nas pamiec w
+                      // ktorej bedziemy trzymac wartosci typu integer
+  i = 55;             // przypisujemy warotsc 55 do naszej zmiennej
+
+  printf("%d\n", i);  // wypisujemy na stdout (standardowe wyjscie) jakis tekst.
+                      // %d - oznacza ze podamy mu zmienna typu integer (digit)
+                      // \n - za po liczbie chce wstawic nowa linie
+                      // po przecinku podaje zmienna i, ktora wypisz
+
+  return i;           // return operacje zwracajaca wynik z bloku.
+                      // blok to operacje/instrukcje miedzy { }
+                      // `return i` oznacza ze z bloki zwroce wartosc zapisana na zmiennej i
+}
