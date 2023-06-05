@@ -1,0 +1,135 @@
+Typy zmiennych:
+int - liczby calkowite
+float - liczny ulamkowe
+double - liczny ulamkowe (podwojna precyzja)
+char - znaki
+char[] - slowa/tekst
+bool - wartosci logiczne true/false
+
+
+Operator przypisania:
+=     // przypisanie, np. i = 4;
+
+
+Operatory porownania:
+
+==    // rownanie sie, czyli 4 == 4
+!=    // nierowna sie, czyli 3 != 4
+>     
+>=
+< 
+<=
+
+
+Operatory arytmetyczne:
+
++     // sume, np. b = a + 4; 
+      //       np. i = i + 1; to samo: i += 1; i++;
+-
+/     // dzielenie calkowite, co to znaczy: 7/3 == 2. 
+%     // reszta z dzielenie, 7%3 == 1
+         3*2 + 1 == 7
+*     // mnozenie
+
+
+Operatory logiczne:
+
+&&    // konjunkcja logiczna
+||    // lub
+
+Np.
+bool a, b;
+a = true;
+b = false;
+
+AND (&&):
+  a  |  b   |   a && b
+true   true     true
+false  true     false
+true   false    false
+false  false    false
+
+OR (||):
+  a  |  b   |   a && b
+true   true     true
+false  true     true
+true   false    true
+false  false    false
+
+
+NOT (!):
+  a   |   !a
+true     false
+false |  true
+
+
+
+==========================================
+if (wyrazenie_logiczne) {
+  // wykonujemy ten blok jesli wyraczenie logiczne jest prawdziwe
+} else {
+  // w przeciwnym wypadki
+}
+
+
+if (wyrazenie_logiczne) {
+  // wykonujemy ten blok jesli wyraczenie logiczne jest prawdziwe
+} else if (wyrazenie_logiczne_2) {
+  // wykonujemy ten blok jesli drigue wyraczenie logiczne jest prawdziwe
+} esle {
+  // w przeciwnym wypadki
+}
+
+
+int i = 4;
+
+if (i < 0) {
+  printf("i jest liczba ujemna");
+} else {
+  printf("i jest liczba dodatnia");
+}
+
+
+------------------------------------
+int a = -5;
+
+if (i < 0) {
+  a *= -1;
+}
+
+if (i < 0)
+  a *= -1;
+
+
+printf("a jest dodatnie: %d\n", a);
+
+
+==========================================
+Pętle (loops):
+==========================================
+Petla `while` - wykonuj dopuki
+
+int i = 0;
+while(i + 3 < 10) {
+  printf("i: %d\n", i);
+  i++;
+  i == 1;
+}
+
+------------------------------------
+Petla for - wykonaj konkretna ilosc razy
+for(int i = 0; i < 10; i++) {
+  printf("i: %d\n", i);
+}
+
+int main() {
+  int i;
+  for(i = 0; i < 10; i++) {
+    printf("i: %d\n", i);
+  }
+
+  return i + 100;
+}
+
+
+
