@@ -1,0 +1,53 @@
+Tutorial:
+  https://www.w3schools.com/c/c_functions.php
+
+==========================================================
+funkcja, to ciag instrukcji, ktoremu przypisalismy jakas nazwe.
+poprzez ta nazwe mozemy wykonywac dany blok dowolna ilosc razy gdzie kolwiek w
+kodzie
+
+==========================================================
+Syntax:
+
+void function() {
+  // code to execute
+}
+
+int function() {
+  // code to execute
+
+  return i; // gdzie i jest typu int lub po prostu jakas liczba calkowita
+}
+
+// ogolnie:
+deklarujac funkcje podajemy kolejno:
+1. typ ktory zwraca fukcja:
+  void - czyli nic nie zwraca
+  int  - zwraca liczbe calkowita
+  itd. - dowolny typ jaki potrzebujemy
+
+2. nazwe funkcji:
+3. w nawiasac nazwy argumntow funkcji wraz z typami. Funkcja moze nie miec argumentow:
+int moja_funkcje(int arg1, char arg2)
+
+4. w nawiasach klamrowych {} podajemy nasz kod, cialo funkcji
+
+PRZYKLAD:
+
+int plus(int a, int b) {
+  return a + b;
+}
+
+==========================================================
+Wykorzystanie (wywolanie) funkcji:
+
+// w kodzie po prostu piszemy nazwe funkcji, a w nawiasach okraglych jej argumenty, jesli funkcja nie ma argumentow, to puste nawiasy
+
+PRZYKLAD:
+
+int main() {
+  int i = 5;
+  printf("%d\n", plus(i, 4));
+
+  return 0;
+}
