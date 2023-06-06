@@ -1,0 +1,12 @@
+Napisz program, ktory ma zmienna `height` typu int i reprezentuje wysokosc drzewa (choinki)
+
+Po uruchomieniu programu, program powinien wypisac na standartowe wejscie, przy pomocy funkcji `printf`, w kilku wierszach drzewko, skladajace sie z gwiadek.
+
+Dla wysokosci height = 5:
+
+    *
+   ***
+  *****
+ *******
+*********
+    *
