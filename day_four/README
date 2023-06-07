@@ -1,0 +1,8 @@
+Konwersja napisu (np. z wejscia) na liczbe calkowita (int)
+
+Materialy:
+https://www.geeksforgeeks.org/convert-string-to-int-in-c/
+
+Pod powyzszym linkiem jest opis metod:
+  * atoi - konwersja do integer'a
+  * sscanf - konwersja do dowolnego typu
